@@ -20,6 +20,7 @@ pool.connect((err, client, release) => {
               'Error executing query', err.stack)
       }
       console.log("Connected to Database !")
+      
   })
 })
 
